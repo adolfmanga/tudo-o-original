@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+    :root{
+        --lime: #00FF00;
+        --gray1: #a39797;
+        --DarkMagenta: #8B008B;
+        --Red: #FF0000;
+        --navajo: #FFDEAD;
+        --burly: #DEB887;
+        --white: #FFFFFF;
+        --cornsilk: #FFF8DC;
+        --wheat: #F5DEB3;
+        --blanched: #FFEBCD;
+        --crimson: #DC143C;
+        --bisque: #FFE4C4;
+        --black: #000000;
+        --chocolate: #D2691E;
+        --sienna: #A0522D;
+        --saddlebrown: #8B4513;
+        --darkred: #8B0000;
+        --steelblue: #4682B4;
+        --dimgray: #696969;
+        --lightslategray: #778899;
+        --silver: #C0C0C0;
+    }
+    /*links gerais*/
+     a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+
+        /*lista separada do header*/
+
+   .titulo2 {
+background-color: var(--black);
+text-align: center;
+font-family: "Raleway", cursive;
+color: var(--silver);
+border-radius: 10px;
+margin: 25px;
+padding: 5px;
+font-family: "Sedan", cursive;
+border: outset var(--crimson) 5px;
+}
+
+.link-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;;
+    list-style: none;
+    cursor: pointer;
+}
+
+/*titulo principal*/
+
+.titulo-principal {
+text-align: center;
+font-size: 50px;
+font-family: "Sedan", cursive;
+margin: 10px;
+cursor: pointer;
+}
+
+.titulo-principal:hover {
+    color: var(--crimson);
+}
+
+.topo-do-site {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    background-image: url(funto-site.png);
+    background-size: 100% 220%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topo-do-site img {
+    width: 200px;
+    max-height: auto;
+}
+
+/*PRINCIPAL*/
+
+.corpo {
+    background-color: var(--cornsilk);
+    background-image: url(silver-gradient-with-highlights-vector-26457044.webp); /*alterado*/
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+}
+
+/*index*/
+.sugestao-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr ));
+    margin: 10px;
+}
+
+/*index*/
+.sugestao-container img {
+    width: 310px;
+    margin-left: 35px;
+    border-radius: 20px;
+    border: outset var(--black) 5px;
+}
+
+/*geral*/
+.titulo3 {
+    background-color: var(--black);
+    text-align: center;
+    color: var(--white);
+    border-radius: 10px;
+    margin: 25px;
+    padding: 5px;
+    font-family: "Sedan", cursive;
+    border: outset var(--black) 3px;
+    }
+    
+    /*botões | index*/
+.input-botao {
+margin-left: 100px;
+  max-width: 30px;
+
+}
+
+/*sessões de drinks diferentes*/
+.alcool {
+    text-align: center;
+    font-size: 40px;
+    color: var(--dimgray);
+    margin: 20px;
+        }
+    
+
+/*drink*/
+.menu-container {
+    display: flex;
+     flex-direction: column;
+ 
+     }
+
+/*geral*/
+.link-header img {
+    width: 60px;
+}
+
+
+
+/*section | drink*/
+.menu-container img {
+    width: 510px;
+    margin-left: 35px;
+    border-radius: 20px;
+    border: outset var(--black) 10px;
+}
+
+
+/*ANIMAÇÕES*/
+
+
+
+/*preço*/
+span {  
+    margin-right: 10px;
+    font-size: 25px;
+    font-family: "Sedan", cursive;
+    margin: auto;
+    }
+
+.teste {
+    display: flex;
+}
+
+/*lista e cores da lista*/
+.links-lista { 
+    margin-left: 14px;
+    }
+    
+/*espaços entre as imagens do menu*/
+.hr { 
+    margin: 40px;
+    height: 9px;
+    background-color: var(--black);
+    width: 98%; 
+    border-radius: 20px;
+    border: outset 2px var(--crimson);
+    }
+    
+    hr {
+
+    border-bottom: solid 4px var(--black);
+}
+
+
+/*titulo | Drink */
+.titulodrink {
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+    font-family: "Sedan", cursive;
+    color: var(--black);
+    font-size: 60px;
+}
+
+/*geral*/
+.rodape {
+    background-color: #00FF00;
+    font-family: "sedan" , cursive;
+    font-size: 30px;
+    border: outset crimson 15px;
+}
+
+/*botões | drinks*/
+.input {
+    height: 50px; 
+    width: 100px;
+ border-radius: 10px;
+ text-align: center; 
+ font-size: 20px;
+ font-family: "Overpass", cursive;
+}
+
+/*botao | drink*/
+.botao {
+    height: 50px; 
+    width: 100px;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer; 
+    font-size: 20px; 
+    font-family: "Overpass", cursive;
+    }
+    
+
+/*div | drinks*/
+.div-container {
+display: flex;
+flex-direction: initial;
+    margin-bottom: 50px;
+}
+
+
+
+/*descrição | drinks*/
+.descricao-menu {
+font-family: "sedan" , cursive;
+font-size: 40px; 
+margin: 150px;
+
+}
+
+/*botao | drinks*/
+.button-input { 
+margin-right: 600px;
+
+     }
+
+
+/*ingredientes | menu*/
+.ingredientes {
+font-size: 25px;
+padding: 1px;
+margin: auto;
+    }
+
+    /*botão | index*/
+    button {
+        height: 50px; 
+        width: 100px;
+        border-radius: 10px;
+        margin: 5px;
+        cursor: pointer; 
+        font-size: 20px; 
+        font-family: "Overpass", cursive;
+    margin-left: 50px;
+    }
+
+
+    input {
+
+        height: 30px;
+text-align: center;
+           font-size: 15px;
+           margin: auto;
+        
+    }
